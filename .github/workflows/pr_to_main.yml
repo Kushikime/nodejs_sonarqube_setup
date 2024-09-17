@@ -24,5 +24,8 @@ jobs:
         with:
           node-version: 20.16.0
 
+      - name: Install npm packages
+        run: npm install --loglevel verbose
+
       - name: run sonarscan
         run: npm run sonarscan
