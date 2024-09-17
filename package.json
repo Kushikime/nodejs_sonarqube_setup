@@ -1,0 +1,22 @@
+{
+  "name": "nodejs_sonarqube_setup",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000n\u0000o\u0000d\u0000e\u0000j\u0000s\u0000_\u0000s\u0000o\u0000n\u0000a\u0000r\u0000q\u0000u\u0000b\u0000e\u0000_\u0000s\u0000e\u0000t\u0000u\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "sonarscan": "node ./cli-helpers/sonarqube.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kushikime/nodejs_sonarqube_setup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kushikime/nodejs_sonarqube_setup/issues"
+  },
+  "homepage": "https://github.com/Kushikime/nodejs_sonarqube_setup#readme",
+  "devDependencies": {
+    "sonarqube-scanner": "^4.2.2"
+  }
+}
